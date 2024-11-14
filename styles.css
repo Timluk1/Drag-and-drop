@@ -29,7 +29,8 @@ body {
 }
 
 .red-block {
-    height: 40px;
+    display: flex;
+    flex-direction: column;
     background-color: #e74c3c;
     margin-bottom: 10px;
     display: flex;
@@ -38,6 +39,7 @@ body {
     color: white;
     font-weight: bold;
     border-radius: 4px;
+    padding: 20px
 }
 
 .main-container {
@@ -81,21 +83,21 @@ body {
 
 .word {
     color: white;
-    background-color: #8e44ad;
+    background-color: #757575;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90px;
-    height: 90px;
+    height: 60px;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     cursor: grab;
     transition: all 0.2s;
     font-weight: bold;
 }
 
 .word.initial-word {
-    background-color: #8e44ad;
+    background-color: #757575;
 }
 
 .word:active {
