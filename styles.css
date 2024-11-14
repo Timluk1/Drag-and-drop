@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: move;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+    color: wheat;
+    transition: all 0.2s;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+}
+
+.home-container {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(161, 153, 153);
+    padding: 30px;
+}
+
+.main-container {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(119, 113, 113);
+    padding: 30px;
+}
+
+.selected {
+    opacity: 0.2;
+}
