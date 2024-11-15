@@ -88,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px;
+    min-width: 90px;
     height: 60px;
     padding: 20px;
     border-radius: 25px;
